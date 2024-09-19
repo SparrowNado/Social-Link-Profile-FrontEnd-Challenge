@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  
+    background-color: rgb(20,20,20,255);
+    
+
+}
+
+*{
+    font-family: "Inter", sans-serif; 
+}
+
+.container{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 205px;
+}
+.name{
+    font-weight: 700;
+}
+.location{
+    color: #c4f82a;
+    font-weight: 600;
+   
+}
+.title-hobby{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+.profile-card{
+background-color: rgb(31,31,31,255);
+color: white;
+border-radius: 20px;
+
+
+
+align-items: center;
+
+/* height: 525px; */
+height: 600px;
+width: 380px;
+
+
+
+
+
+
+
+text-align: center;
+
+
+
+
+
+}
+
+
+.social-media{
+    list-style: none;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+.profile-pic{
+    object-fit: cover;
+}
+
+
+.profile-image{
+
+padding-top: 20px;
+
+height: 150px;
+width: 150px;
+border-radius: 50%;
+object-fit: cover;
+
+
+}
+
+
+
+.social-button{
+    background-color: rgb(51,51,51,255);
+    border-radius: 5px;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    color: #e4e4e4;
+    margin-bottom: 10px;
+    box-shadow: none;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+
+button:active{
+
+    background-color: #c4f82a;
+    color: #45562a;
+
+}
